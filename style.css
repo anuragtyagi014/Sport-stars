@@ -1,0 +1,157 @@
+/*
+Theme Name: Goliath
+Theme URI: http://demo.planetshine.net/goliath-news/
+Author: Planetshine
+Author URI: http://planetshine.net
+Text Domain: goliath
+Description: Goliath is a beautifully designed, feature packed magazine theme.
+Version: 1.0.41
+	Copyright: (c) 2014 Planetshine
+	License: GNU General Public License v3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+*/
+
+/* edited on 24 sep 2023 to fix css issues after WP upgrade 6.3 */
+
+.header {
+	margin: 0 auto;
+}
+
+.container {
+	background-color: #ffffff !important;
+}
+
+.homepage-content {
+	background-color: #ffffff;
+}
+
+.menu {
+	margin: 0 0 0 0;
+}
+
+.navbar .default-menu {
+	background-color: #333333 !important;
+}
+
+div.title-default > a {
+	padding-left: 10px;
+}
+
+a.tag-default, a.tag-default:visited {
+	color: #ffffff;
+}
+
+.post-1 {
+	padding-left: 10px;
+}
+
+.about {
+	padding-left: 10px;
+}
+
+.header .logo-image {
+	display: block;
+}
+.header .logo-image img {
+	width: 90%;
+}
+
+.copyright {color: #aaa; font-weight: bold;}
+.copyright i {font-size: 24px;}
+.copyright ul {display: inline-block;}
+.dropdown-post-list .items .dropdown-row-wrapper .post-item .image img {
+    max-width: 100%;
+}
+div.mosaic h2 a, div.mosaic h2 a:visited {color: #fff;}
+.footer {padding: 40px; padding-bottom: 80px;}
+.footer a, .footer a:visited {color: #fff; font-weight: bold;}
+
+/* home page 2 col block */
+.post-block-1 .items {padding: 22px;}
+/* home page 1 col block - lowest area */
+.post-block-2 .items {padding: 10px;}
+/* home page 3 col block */
+.post-block-3 .items {padding: 10px;}
+.post-block-3 .post-item {
+    margin: 0 16px 0 0;
+    width: 192px;
+}
+
+.post-1 .post p { 
+	font-size: 13pt; 
+}
+
+#ad-728_a {
+    width: 100%;
+    max-width: 728px;
+    float: right;
+    overflow: hidden;
+}
+
+.post-image-sharrre {
+    max-width: 600px;
+}
+
+#adminmenu li.wp-menu-separator {
+    height: 10px;
+    padding: 12px;
+        padding-top: 12px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+    margin: 0 0 6px 0;
+    cursor: inherit;
+    background: white;
+ }
+
+.bsa_pro_ajax_load-8, .bsa_pro_ajax_load-13 {
+  margin: 20px 0;
+}
+
+.main-content-column-1 .post-1 .image img { 
+	width: 100%; 
+}
+
+/* camp pages */
+div .intro_text { 
+	text-align: justify;
+}
+
+div .body_text p { 
+	margin: 5px auto 8px auto; 
+	text-align: justify; 
+}
+
+.menu .nav .dropdown-toggle::after {
+  font-size:0px;
+}
+
+.main_body { 
+	background-color: #ffffff; 
+}
+
+.camps_cta_intro { 
+	margin: 12px 0 0 12px; 
+}
+
+.blog-block-1 .post-item .image { 
+	margin: 0 10px 0 10px; 
+}
+
+.blog-block-1 .post-item .intro { 
+	margin: 0 0 0 200px;
+	text-align: justify;
+}
+
+
+.blog-block-1 .intro .more-link { 
+	margin: 10px 0 0 0; 
+}
+
+.blog-block-1 .title-default { 
+	margin-top: 20px !important; 
+}
+
+.post-1 .title h1 #intro  {
+	margin-top: 20px !important; 
+}
